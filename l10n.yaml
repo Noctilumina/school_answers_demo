@@ -1,0 +1,6 @@
+# localization config
+arb-dir: lib/l10n # localization directory
+template-arb-file: app_en.arb # template directory
+output-localization-file: app_localizations.dart # generated localization directoy
+synthetic-package: false # determines wether to import this in lib or not, turned on as a learning excercise, flip in production
+nullable-getter: true # makes missing keys throw errors instead of returning null, only turn of if impeding development
